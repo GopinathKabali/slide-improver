@@ -17,6 +17,11 @@
   <Hosts>
     <Host Name="Presentation" />
   </Hosts>
+  <Requirements>
+    <Sets DefaultMinVersion="1.5">
+      <Set Name="PowerPointApi" MinVersion="1.5" />
+    </Sets>
+  </Requirements>
   <DefaultSettings>
     <SourceLocation DefaultValue="https://localhost:3000/taskpane.html" />
   </DefaultSettings>

@@ -18,18 +18,17 @@
 
       <section class="card" aria-labelledby="review-heading">
         <h2 id="review-heading">Review a slide</h2>
-        <label for="request">What would you like help with?</label>
-        <textarea id="request" rows="3" placeholder="For example: Make this slide clearer and improve the layout."></textarea>
-        <button id="review-button" type="button">Review current slide</button>
+        <button id="review-button" type="button">Review selected slide</button>
         <p id="status" role="status" aria-live="polite">The assistant is ready.</p>
       </section>
 
       <section id="suggestions" class="card suggestions" aria-live="polite" hidden>
         <h2>Suggestions</h2>
-        <p id="suggestion-text"></p>
-        <p class="note">AI suggestions and one-click formatting changes will be added in the next step.</p>
+        <p id="slide-summary" class="slide-summary"></p>
+        <ul id="suggestion-list"></ul>
+        <p class="note">These are local starter checks. ChatGPT-powered suggestions and approved formatting changes will be added next.</p>
       </section>
-      <footer>Changes should be reviewed before they are applied.</footer>
+      <footer>This prototype checks editable text and layout locally. It does not send slide content or make changes.</footer>
     </main>
   </body>
 </html>

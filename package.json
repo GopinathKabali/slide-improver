@@ -1,0 +1,16 @@
+{
+  "name": "slide-improver",
+  "version": "0.1.0",
+  "private": true,
+  "description": "A Microsoft 365 PowerPoint add-in for AI-assisted slide improvement.",
+  "scripts": {
+    "dev": "node server.js",
+    "install-dev-cert": "office-addin-dev-certs install"
+  },
+  "dependencies": {
+    "express": "^5.1.0"
+  },
+  "devDependencies": {
+    "office-addin-dev-certs": "^3.0.1"
+  }
+}
