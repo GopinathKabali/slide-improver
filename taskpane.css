@@ -1,0 +1,26 @@
+:root {
+  font-family: "Segoe UI", Arial, sans-serif;
+  color: #202124;
+  background: #f7f8fc;
+  font-synthesis: none;
+}
+
+* { box-sizing: border-box; }
+body { margin: 0; }
+.app { max-width: 520px; margin: 0 auto; padding: 24px 18px; }
+header { margin-bottom: 20px; }
+.eyebrow { margin: 0 0 8px; color: #5b5bd6; font-size: 11px; font-weight: 700; letter-spacing: .1em; }
+h1 { margin: 0; font-size: 25px; }
+.intro { margin: 8px 0 0; color: #5f6368; line-height: 1.45; }
+.card { padding: 18px; border: 1px solid #e2e4ec; border-radius: 12px; background: white; box-shadow: 0 2px 8px #2021240a; }
+h2 { margin: 0 0 14px; font-size: 16px; }
+label { display: block; margin-bottom: 7px; font-size: 13px; font-weight: 600; }
+textarea { display: block; width: 100%; min-height: 82px; padding: 10px; resize: vertical; border: 1px solid #c9ccd6; border-radius: 7px; font: inherit; line-height: 1.4; }
+textarea:focus { outline: 2px solid #7777e8; outline-offset: 1px; }
+button { width: 100%; margin-top: 12px; padding: 11px 14px; border: 0; border-radius: 7px; color: white; background: #5454c8; font: inherit; font-weight: 600; cursor: pointer; }
+button:hover { background: #4141a9; }
+button:disabled { opacity: .65; cursor: wait; }
+#status { min-height: 18px; margin: 12px 0 0; color: #5f6368; font-size: 12px; }
+.suggestions { margin-top: 14px; }
+.note, footer { color: #666a73; font-size: 12px; line-height: 1.45; }
+footer { padding: 16px 4px 0; }
